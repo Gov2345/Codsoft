@@ -1,0 +1,149 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #6b4040;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  nav {
+    background-color: #1a3771;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav__logo img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .nav__links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .link {
+    margin-right: 20px;
+  }
+  
+  .link a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .search span {
+    cursor: pointer;
+  }
+  
+  .login {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .tech__container {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .socials {
+    margin-bottom: 20px;
+  }
+  
+  .socials span {
+    margin-right: 15px;
+    font-size: 24px;
+    color: #007bff;
+  }
+  
+  .content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .content p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .tech__grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .tech__card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tech__card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #007bff;
+  }
+  
+  .card__content {
+    padding: 20px;
+  }
+  
+  .card__content h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .card__content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .card__content .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
